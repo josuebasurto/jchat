@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "description": "suepr simple chat in firebase hosting",
   "main": "index.js",
+  "private": true,
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:e2e": "playwright test"
   },
   "repository": {
     "type": "git",
@@ -23,5 +29,14 @@
   "bugs": {
     "url": "https://github.com/josuebasurto/jchat/issues"
   },
-  "homepage": "https://github.com/josuebasurto/jchat#readme"
+  "homepage": "https://github.com/josuebasurto/jchat#readme",
+  "dependencies": {
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.37.0",
+    "@vitejs/plugin-vue": "^4.3.1",
+    "vite": "^4.4.9"
+  }
 }
