@@ -31,6 +31,7 @@ export default {
     addMessage(message) {
       if (this.username) {
         this.messages.push({ username: this.username, text: message });
+        //analytics.logEvent('send_message', { username: this.username });
       }
     },
     setUsername(username) {
