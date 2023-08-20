@@ -4,7 +4,6 @@
   "description": "suepr simple chat in firebase hosting",
   "main": "index.js",
   "private": true,
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
@@ -31,6 +30,7 @@
   },
   "homepage": "https://github.com/josuebasurto/jchat#readme",
   "dependencies": {
+    "bootstrap": "^5.3.1",
     "vue": "^3.3.4",
     "vue-router": "^4.2.4"
   },

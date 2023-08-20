@@ -10,6 +10,7 @@ suepr simple chat in firebase hosting
     firebase init
     npm install firebase
     npm create vue@latest
+    npm install bootstrap
     npm install
 
 
