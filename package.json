@@ -1,0 +1,27 @@
+{
+  "name": "jchat",
+  "version": "1.0.0",
+  "description": "suepr simple chat in firebase hosting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josuebasurto/jchat.git"
+  },
+  "keywords": [
+    "chat",
+    "simple",
+    "firebase",
+    "hosting",
+    "real",
+    "time"
+  ],
+  "author": "josuebasurto",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/josuebasurto/jchat/issues"
+  },
+  "homepage": "https://github.com/josuebasurto/jchat#readme"
+}
