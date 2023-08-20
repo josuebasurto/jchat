@@ -2,6 +2,10 @@
 
 suepr simple chat in firebase hosting
 
+## Deployed
+
+https://jchat-a2c5b.web.app/
+
 ## Pasos para inicializar el repo ✅
 
     npm install
